@@ -13,7 +13,7 @@ import (
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 
-	pb "../../proto/gen"
+	pb "github.com/greenteabiscuit/micro-prac/proto/gen"
 )
 
 func main() {

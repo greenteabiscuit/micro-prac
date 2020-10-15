@@ -7,7 +7,7 @@ RUN echo $GOPATH
 RUN go get -u github.com/golang/protobuf/protoc-gen-go
 RUN go get -u github.com/grpc-ecosystem/go-grpc-middleware/logging/zap
 RUN go get -u go.uber.org/zap
-
+RUN go get -u github.com/greenteabiscuit/micro-prac/proto/gen
 WORKDIR /go/src/micro-sample-frontend
 COPY . .
 

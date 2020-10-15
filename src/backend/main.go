@@ -7,7 +7,7 @@ import (
 	"google.golang.org/grpc"
 	"log"
 	"net"
-	pb "../../proto/gen"
+	pb "github.com/greenteabiscuit/micro-prac/proto/gen"
 	context "golang.org/x/net/context"
 )
 
